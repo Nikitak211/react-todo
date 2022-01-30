@@ -1,0 +1,28 @@
+.todos{
+    width: 15em;
+    height:fit-content;
+    border: 0px solid black;
+    box-shadow: 0 0 3px black;
+    background-color: rgba(135, 135, 135, 0.075) ;
+    backdrop-filter: blur(15px);
+    display: grid;
+    align-items:center;
+    justify-content: center;
+}
+.todos textarea {
+    width: 15em;
+    background-color:transparent;
+    resize: none;
+    border:none;
+    color:black;
+}
+.checkbox{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    gap:0.5em;
+}
+.checkbox input{
+    margin: 0 auto;
+}
